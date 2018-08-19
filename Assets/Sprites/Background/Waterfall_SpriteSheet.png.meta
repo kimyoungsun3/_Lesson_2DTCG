@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 18b27dfb1ad4e394b839153b7f105d1d
-timeCreated: 1431428661
-licenseType: Store
+guid: ce3870bc3e52a1e45a0e3c305b1f4d2f
+timeCreated: 1534651572
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: $Fighter_10_0
-    21300002: $Fighter_10_1
-    21300004: $Fighter_10_2
-    21300006: $Fighter_10_3
-    21300008: $Fighter_10_4
-    21300010: $Fighter_10_5
-    21300012: $Fighter_10_6
-    21300014: $Fighter_10_7
-    21300016: $Fighter_10_8
-    21300018: $Fighter_10_9
-    21300020: $Fighter_10_10
-    21300022: $Fighter_10_11
-    21300024: $Fighter_10_12
-    21300026: $Fighter_10_13
-    21300028: $Fighter_10_14
-    21300030: $Fighter_10_15
+    21300000: Waterfall_SpriteSheet_0
+    21300002: Waterfall_SpriteSheet_1
+    21300004: Waterfall_SpriteSheet_2
+    21300006: Waterfall_SpriteSheet_3
+    21300008: Waterfall_SpriteSheet_4
+    21300010: Waterfall_SpriteSheet_5
+    21300012: Waterfall_SpriteSheet_6
+    21300014: Waterfall_SpriteSheet_7
+    21300016: Waterfall_SpriteSheet_8
+    21300018: Waterfall_SpriteSheet_9
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -43,12 +37,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -3
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
-    aniso: 1
+    filterMode: -1
+    aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -62,7 +56,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 128
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -73,30 +67,30 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,229 +100,145 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: $Fighter_10_0
+      name: Waterfall_SpriteSheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
-        width: 144
-        height: 96
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_1
+      name: Waterfall_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 144
-        y: 288
-        width: 144
-        height: 96
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_2
+      name: Waterfall_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 288
-        y: 288
-        width: 144
-        height: 96
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_3
+      name: Waterfall_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 432
-        y: 288
-        width: 144
-        height: 96
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_4
+      name: Waterfall_SpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 144
-        height: 96
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_5
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 192
-        width: 144
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: $Fighter_10_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 192
-        width: 144
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: $Fighter_10_7
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 192
-        width: 144
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: $Fighter_10_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 144
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: $Fighter_10_9
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 96
-        width: 144
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: $Fighter_10_10
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 96
-        width: 144
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: $Fighter_10_11
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 96
-        width: 144
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: $Fighter_10_12
+      name: Waterfall_SpriteSheet_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 144
-        height: 96
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_13
+      name: Waterfall_SpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 144
-        height: 96
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_14
+      name: Waterfall_SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 288
+        x: 256
         y: 0
-        width: 144
-        height: 96
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: $Fighter_10_15
+      name: Waterfall_SpriteSheet_8
       rect:
         serializedVersion: 2
-        x: 432
+        x: 384
         y: 0
-        width: 144
-        height: 96
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Waterfall_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
