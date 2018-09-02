@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 759af5c077af340ddb1f9d56a2eb5ef7
+guid: 8aeff8fd891d54947b795ded25aec191
 timeCreated: 1432377841
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName:
-    21300000: $Healer_10_0
-    21300002: $Healer_10_1
-    21300004: $Healer_10_2
-    21300006: $Healer_10_3
-    21300008: $Healer_10_4
-    21300010: $Healer_10_5
-    21300012: $Healer_10_6
-    21300014: $Healer_10_7
-    21300016: $Healer_10_8
-    21300018: $Healer_10_9
-    21300020: $Healer_10_10
-    21300022: $Healer_10_11
-    21300024: $Healer_10_12
-    21300026: $Healer_10_13
-    21300028: $Healer_10_14
-    21300030: $Healer_10_15
+    21300000: Char003_a001
+    21300002: Char003_a002
+    21300004: Char003_a003
+    21300006: Char003_a004
+    21300008: Char003_a005
+    21300010: Char003_a006
+    21300012: Char003_a007
+    21300014: Char003_a008
+    21300016: Char003_a009
+    21300018: Char003_a010
+    21300020: Char003_a011
+    21300022: Char003_a012
+    21300024: Char003_a013
+    21300026: Char003_a014
+    21300028: Char003_a015
+    21300030: Char003_a016
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: $Healer_10_0
+      name: Char003_a001
       rect:
         serializedVersion: 2
         x: 0
@@ -114,13 +114,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_1
+      name: Char003_a002
       rect:
         serializedVersion: 2
         x: 144
@@ -128,13 +128,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_2
+      name: Char003_a003
       rect:
         serializedVersion: 2
         x: 288
@@ -142,13 +142,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_3
+      name: Char003_a004
       rect:
         serializedVersion: 2
         x: 432
@@ -156,13 +156,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_4
+      name: Char003_a005
       rect:
         serializedVersion: 2
         x: 0
@@ -170,13 +170,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_5
+      name: Char003_a006
       rect:
         serializedVersion: 2
         x: 144
@@ -184,13 +184,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_6
+      name: Char003_a007
       rect:
         serializedVersion: 2
         x: 288
@@ -198,13 +198,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_7
+      name: Char003_a008
       rect:
         serializedVersion: 2
         x: 432
@@ -212,13 +212,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_8
+      name: Char003_a009
       rect:
         serializedVersion: 2
         x: 0
@@ -226,13 +226,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_9
+      name: Char003_a010
       rect:
         serializedVersion: 2
         x: 144
@@ -240,13 +240,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_10
+      name: Char003_a011
       rect:
         serializedVersion: 2
         x: 288
@@ -254,13 +254,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_11
+      name: Char003_a012
       rect:
         serializedVersion: 2
         x: 432
@@ -268,13 +268,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_12
+      name: Char003_a013
       rect:
         serializedVersion: 2
         x: 0
@@ -282,13 +282,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_13
+      name: Char003_a014
       rect:
         serializedVersion: 2
         x: 144
@@ -296,13 +296,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_14
+      name: Char003_a015
       rect:
         serializedVersion: 2
         x: 288
@@ -310,13 +310,13 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: $Healer_10_15
+      name: Char003_a016
       rect:
         serializedVersion: 2
         x: 432
@@ -324,7 +324,7 @@ TextureImporter:
         width: 144
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
