@@ -199,7 +199,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5208414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.99, y: -1.11, z: 0}
+  m_LocalPosition: {x: -4.86, y: 0.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1937482381}
@@ -214,9 +214,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 5208414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab11b14339de26d46a0f8cd9627c760f, type: 3}
+  m_Script: {fileID: 11500000, guid: 384ca660a9595844ba46436030f278c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data:
+    type: 0
+    exp: 0
+    hp: 0
+    hpmax: 0
+    tp: 0
+    tpmax: 0
+  targetEnemy: {fileID: 939449255}
+  durationTime: 0.3
 --- !u!1 &383461586
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +383,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab11b14339de26d46a0f8cd9627c760f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data:
+    type: 0
+    exp: 0
+    hp: 0
+    hpmax: 0
+    tp: 0
+    tpmax: 0
 --- !u!95 &939449253
 Animator:
   serializedVersion: 3
@@ -562,6 +578,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731f29871114d2a41a91d7e0089cf17a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data:
+    type: 0
+    exp: 0
+    hp: 0
+    hpmax: 0
+    tp: 0
+    tpmax: 0
   spawnPoint: {fileID: 1715444320}
   tempEnemy: {fileID: 939449255}
   damage: 1
@@ -633,7 +656,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1357201442}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.9, y: -1.1, z: 0}
+  m_LocalPosition: {x: -6.71, y: -0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1715444320}
@@ -799,7 +822,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1581852419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -2.05, z: 0}
+  m_LocalPosition: {x: -4.94, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 588032446}
@@ -817,6 +840,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d2ec826d324e146b7548ecbc01efad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data:
+    type: 0
+    exp: 0
+    hp: 0
+    hpmax: 0
+    tp: 0
+    tpmax: 0
   prefabBullet: {fileID: 4332308070111480, guid: 8e42e70c66e5db0409e3bac121e2e46f,
     type: 2}
   spawnPoint: {fileID: 588032446}
@@ -1021,7 +1051,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2016398473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.85, y: 1.44, z: 0}
+  m_LocalPosition: {x: -4.85, y: -1.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1035,9 +1065,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2016398473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab11b14339de26d46a0f8cd9627c760f, type: 3}
+  m_Script: {fileID: 11500000, guid: 14cd6c0d649a875418ed38103d319e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data:
+    type: 0
+    exp: 0
+    hp: 0
+    hpmax: 0
+    tp: 0
+    tpmax: 0
 --- !u!1 &2071525945
 GameObject:
   m_ObjectHideFlags: 0

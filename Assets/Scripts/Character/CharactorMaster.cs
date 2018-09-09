@@ -3,15 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum AnimState 
-{
+{	
 	Idle 		= 0,
 	Attack01, Attack02, Attack03,
 	Skill01, Skill02
 }
+
+public enum CharType { 
+	Warrior, Healer, Magics, Gun 
+}
+
+[System.Serializable]
+public class CharData  {
+	public CharType type;
+	public float exp;
+
+	public float hp, hpmax;
+	public float tp, tpmax;
+}
+
 public class CharactorMaster : MonoBehaviour {
-	//public CharData data;
-	Animator animator;
-	SpriteRenderer renderer;
+	public CharData data;
+	protected Animator animator;
+	protected SpriteRenderer renderer;
 
 	string[] stateState = {
 		"State", 
@@ -27,15 +41,21 @@ public class CharactorMaster : MonoBehaviour {
 
 	//-------------------------------------
 	//Animation end is calll....
+	protected virtual void AnimationStart(int _idx){
+		//Debug.Log (this + " > " + _idx);
+	}
+
+	//Animation end is calll....
 	protected virtual void AnimationComplete(int _idx){
 		//Debug.Log (this + " > " + _idx);
 	}
 
-	void ChangeState(AnimState _state){
+	protected void ChangeState(AnimState _state){
 		int _idx = (int)_state;
 
 		switch (_state) {
 		case AnimState.Idle:
+			//Debug.Log ((string)_state);
 			animator.SetInteger (stateState [_idx], 1);
 			break;
 		case AnimState.Attack01:
@@ -49,39 +69,11 @@ public class CharactorMaster : MonoBehaviour {
 	}
 
 
-	void ChangeState(string _name){
+	protected void ChangeState(string _name){
 		animator.Play (_name);
 	}
 
-	//-------------------------------------
-	
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown (KeyCode.Alpha1)) {
-			ChangeState (AnimState.Attack01);
-		} else if (Input.GetKeyDown (KeyCode.Alpha2)) {
-			ChangeState (AnimState.Attack02);
-		} else if (Input.GetKeyDown (KeyCode.Alpha3)) {
-			ChangeState (AnimState.Attack03);
-		} else if (Input.GetKeyDown (KeyCode.Alpha4)) {
-			ChangeState (AnimState.Skill01);
-		} else if (Input.GetKeyDown (KeyCode.Alpha5)) {
-			ChangeState (AnimState.Skill02);
-		}		
-	}
 
 	//----------------------------------
 
-	//[System.Serializable]
-	//public class CharData  {
-	//	public CharType type;
-	//	public float level;
-	//
-	//	public float hp;
-	//	public float hpmax;
-	//	public float mp;
-	//	public float mpmax;
-	//	public float tp;
-	//	public float tpmax;
-	//}
 }

@@ -22,4 +22,20 @@ public class CharGun2 : CharactorMaster {
 		Bullet2 _scp = _go.GetComponent<Bullet2> ();
 		_scp.SetTarget (tempEnemy, damage);
 	}
+
+	//-------------------------------------
+	// Update is called once per frame
+	void Update () {
+		if (Input.GetKeyDown (KeyCode.Alpha1)) {
+			ChangeState (AnimState.Attack01);
+		} else if (Input.GetKeyDown (KeyCode.Alpha2)) {
+			ChangeState (AnimState.Attack02);
+		} else if (Input.GetKeyDown (KeyCode.Alpha3)) {
+			ChangeState (AnimState.Attack03);
+		} else if (Input.GetKeyDown (KeyCode.Alpha4)) {
+			ChangeState (AnimState.Skill01);
+		} else if (Input.GetKeyDown (KeyCode.Alpha5)) {
+			ChangeState (AnimState.Skill02);
+		}		
+	}
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class AttackMaster2 : MonoBehaviour {
 	public float durationTime = 0.5f;
 	public virtual void SetTarget(Transform _t, float _damage){
+		StopAllCoroutines ();
 		StartCoroutine (Co_MoveTaward (_t, _damage));
 	}
 
