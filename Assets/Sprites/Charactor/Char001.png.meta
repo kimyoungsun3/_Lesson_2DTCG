@@ -36,6 +36,22 @@ TextureImporter:
     21300058: Char001_a014
     21300060: Char001_a015
     21300062: Char001_a016
+    21300064: Char001_a001
+    21300066: Char001_a002
+    21300068: Char001_a003
+    21300070: Char001_a004
+    21300072: Char001_a005
+    21300074: Char001_a006
+    21300076: Char001_a007
+    21300078: Char001_a008
+    21300080: Char001_a009
+    21300082: Char001_a010
+    21300084: Char001_a011
+    21300086: Char001_a012
+    21300088: Char001_a013
+    21300090: Char001_a014
+    21300092: Char001_a015
+    21300094: Char001_a016
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -224,7 +240,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 432
-        y: 192
+        y: 193
         width: 144
         height: 96
       alignment: 7
