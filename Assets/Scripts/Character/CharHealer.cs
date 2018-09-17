@@ -11,6 +11,14 @@ public class CharHealer : CharactorMaster {
 		}
 	}
 
+	public void OneTargetHeal(){
+		Debug.Log (" 1 heal");
+	}
+
+	public void AllTargetHeal(){
+		Debug.Log (" All heal");
+	}
+
 	//-------------------------------------
 	// Update is called once per frame
 	void Update () {

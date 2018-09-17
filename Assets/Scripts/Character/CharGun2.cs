@@ -17,6 +17,7 @@ public class CharGun2 : CharactorMaster {
 	//Anmation의 동작이 loop가 아니여야한다...
 	protected override void AnimationComplete(int _idx){
 		//Debug.Log (" > " + _idx);
+		//Transform _go = Instantiate (prefabBullet, spawnPoint.position, spawnPoint.rotation);
 		GameObject _go = PoolManager.ins.Instantiate ("Bullet2", spawnPoint.position, spawnPoint.rotation);
 
 		Bullet2 _scp = _go.GetComponent<Bullet2> ();

@@ -224,6 +224,7 @@ MonoBehaviour:
     hpmax: 0
     tp: 0
     tpmax: 0
+    damage: 0
   targetEnemy: {fileID: 939449255}
   durationTime: 0.3
 --- !u!1 &383461586
@@ -253,9 +254,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe99b24007b1c304c8e6aabc4a1dead1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolCount: 20
+  poolCount: 3
   objList:
   - {fileID: 1539859256571848, guid: b5644dbf2135b934bafa223602de2490, type: 2}
+  - {fileID: 1539859256571848, guid: 8e42e70c66e5db0409e3bac121e2e46f, type: 2}
+  - {fileID: 0}
   willGrow: 1
 --- !u!4 &383461588
 Transform:
@@ -387,9 +390,10 @@ MonoBehaviour:
     type: 0
     exp: 0
     hp: 0
-    hpmax: 0
+    hpmax: 100
     tp: 0
     tpmax: 0
+    damage: 0
 --- !u!95 &939449253
 Animator:
   serializedVersion: 3
@@ -585,6 +589,7 @@ MonoBehaviour:
     hpmax: 0
     tp: 0
     tpmax: 0
+    damage: 0
   spawnPoint: {fileID: 1715444320}
   tempEnemy: {fileID: 939449255}
   damage: 1
@@ -847,11 +852,11 @@ MonoBehaviour:
     hpmax: 0
     tp: 0
     tpmax: 0
+    damage: 10
   prefabBullet: {fileID: 4332308070111480, guid: 8e42e70c66e5db0409e3bac121e2e46f,
     type: 2}
   spawnPoint: {fileID: 588032446}
   tempEnemy: {fileID: 939449255}
-  damage: 1
 --- !u!1 &1690981597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,6 +1080,7 @@ MonoBehaviour:
     hpmax: 0
     tp: 0
     tpmax: 0
+    damage: 0
 --- !u!1 &2071525945
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class CharGun : CharactorMaster {
 	public Transform prefabBullet;
 	public Transform spawnPoint;
 	public Transform tempEnemy;
-	public float damage;
+	//public float damage;
 
 	//이함수를 animation event로 1번만 불러야 하는데....
 	//12 frame -> 2번
@@ -18,7 +18,7 @@ public class CharGun : CharactorMaster {
 		Transform _go = Instantiate (prefabBullet, spawnPoint.position, spawnPoint.rotation);
 
 		Bullet _scp = _go.GetComponent<Bullet> ();
-		_scp.SetTarget (tempEnemy, damage);
+		_scp.SetTarget (tempEnemy, data.damage);
 	}
 
 	//-------------------------------------

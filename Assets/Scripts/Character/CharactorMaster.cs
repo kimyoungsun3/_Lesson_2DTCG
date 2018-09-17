@@ -20,6 +20,11 @@ public class CharData  {
 
 	public float hp, hpmax;
 	public float tp, tpmax;
+	public float damage;
+
+	public void Init(){
+		hp = hpmax;
+	}
 }
 
 public class CharactorMaster : MonoBehaviour {
@@ -37,6 +42,7 @@ public class CharactorMaster : MonoBehaviour {
 	void Start () {
 		animator = GetComponent<Animator> ();
 		renderer = GetComponent<SpriteRenderer> ();
+		data.Init ();
 	}
 
 	//-------------------------------------
@@ -73,7 +79,17 @@ public class CharactorMaster : MonoBehaviour {
 		animator.Play (_name);
 	}
 
+	public virtual void TakeDamage (float _damage){
 
+		data.hp -= _damage;
+		if (data.hp <= 0f) {
+			OnDestroy ();
+		}
+	}
+
+	protected virtual void OnDestroy(){
+		gameObject.SetActive(false);
+	}
 	//----------------------------------
 
 }

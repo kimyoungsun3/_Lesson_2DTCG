@@ -20,7 +20,9 @@ public class AttackMaster2 : MonoBehaviour {
 			yield return null;
 		}
 
-		Debug.Log ("#### > 데미지 입히기");
+		//Debug.Log ("#### > 데미지 입히기");
+		CharactorMaster _scp = _target.GetComponent<CharactorMaster> ();
+		_scp.TakeDamage (_damage);
 		Debug.Log ("#### > 이펙트 처리하기");
 		OnDestroy();
 	}
